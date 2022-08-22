@@ -1,4 +1,4 @@
-# CourseRegistrationSystem
+# Course Registration System
 Implementation of Abstract Factory, Decorator, Composite, Iterator, Singleton, Observer and Adapter patterns.  
 Spring 2020
 ## Class Diagram
