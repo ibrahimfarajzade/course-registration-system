@@ -10,8 +10,8 @@ public class Rector implements Observer {
                 this.name = name;
         }
 
-        public static Rector getInstance(int id, String name) { //synchronized for multithreading
-                //lazy instantiation
+        public static Rector getInstance(int id, String name) { // synchronized for multithreading
+                // lazy instantiation
                 if (instance == null)
                         instance = new Rector(id, name);
 

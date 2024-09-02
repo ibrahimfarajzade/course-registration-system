@@ -45,18 +45,15 @@ public abstract class Course implements Observable {
                 return numCredit;
         }
 
-        public void LoadStudentsFromDatabase(String databaseName)
-        {
+        public void LoadStudentsFromDatabase(String databaseName) {
                 this.students = studentDatabase.load(databaseName);
         }
 
-        public void SaveStudentsToDatabase(String databaseName)
-        {
+        public void SaveStudentsToDatabase(String databaseName) {
                 studentDatabase.save(databaseName, this.students);
         }
 
-        public int GetRemainingQuota()
-        {
+        public int GetRemainingQuota() {
                 return maxQuota - currentQuota;
         }
 

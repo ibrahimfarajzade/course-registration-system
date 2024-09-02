@@ -32,10 +32,10 @@ public class Faculty extends School {
                         System.out.println("Department Name: " + school.getName());
 
 
-                //Explicit iterator
-                //Iterator iterator = schoolComponents.iterator();
-                //while (iterator.next() != null) {
-                        //System.out.println("Department Name: " + ((School)iterator).getName());
-                //}
+                // Explicit iterator
+                // Iterator iterator = schoolComponents.iterator();
+                // while (iterator.next() != null) {
+                //         System.out.println("Department Name: " + ((School)iterator).getName());
+                // }
         }
 }

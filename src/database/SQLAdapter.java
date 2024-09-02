@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class SQLAdapter implements Database {
-
 	SQLDatabase sqlDatabase;
 	
 	public SQLAdapter(SQLDatabase database) {
